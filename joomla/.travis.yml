@@ -10,4 +10,6 @@ install:
   - VBoxManage -v
   - gem install veewee
 script:
+  - date
   - vagrant up
+  - echo "Box build"
