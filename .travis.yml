@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-  - "1.9.3"
+  - "2.2"
 install:
   - sudo apt-get update
   - sudo apt-get -y install linux-headers-$(uname -r)
