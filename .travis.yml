@@ -8,7 +8,6 @@ install:
   - sudo apt-get -y install linux-headers-$(uname -r)
   - sudo apt-get -y install virtualbox-4.2 vagrant
   - VBoxManage -v
-  - gem install veewee
 script:
   - date
   - vagrant up
